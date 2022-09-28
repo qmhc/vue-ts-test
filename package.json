@@ -1,0 +1,15 @@
+{
+	"scripts": {
+		"build": "node index.mjs",
+		"tsc": "tsc -p tsconfig.json"
+	},
+	"type": "module",
+	"dependencies": {
+		"vue": "^3.2.40"
+	},
+	"devDependencies": {
+		"@types/node": "^18.7.23",
+		"prettier": "^2.7.1",
+		"typescript": "^4.8.4"
+	}
+}
